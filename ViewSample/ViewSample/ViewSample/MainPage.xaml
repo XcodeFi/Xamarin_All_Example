@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ViewSample"
+             x:Class="ViewSample.MainPage"
+             xmlns:customView="clr-namespace:ViewSample.Views" ><!--khai báo ContentView ở đấy-->
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <customView:ContentView_1 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            <!--sử dụng content view-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
